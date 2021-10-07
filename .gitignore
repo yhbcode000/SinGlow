@@ -8,4 +8,6 @@ logs
 *.pickle
 *.tfrecords
 .ipynb_checkpoints
+reference paper
+paper work
 
