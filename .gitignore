@@ -1,0 +1,11 @@
+.idea
+**/__pycache__
+results
+checkpoints
+logs
+*.wav
+*.mp3
+*.pickle
+*.tfrecords
+.ipynb_checkpoints
+

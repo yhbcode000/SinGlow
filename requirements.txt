@@ -1,0 +1,5 @@
+librosa==0.8.1
+tensorflow==2.6.0
+tqdm==4.62.1
+typeguard==2.12.1
+numpy==1.19.5
