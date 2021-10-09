@@ -14,11 +14,11 @@ This project is developed above the project [GLOW-tf2](https://github.com/samuel
 
 - [ABSTRACT](#abstract)  
 - [STRUCTURE](#structure)
-- [Requirements](#requirements)
-- [Training](#training)
+- [REQUIREMENTS](#requirements)
+- [TRAINING](#training)
 - [CONTRIBUTING](#contributing)
 - [LICENSE](#license)
-- [REFERENCE](#Reference)
+- [REFERENCE](#reference)
 - [中文注释](#中文注释)
 
 ---
@@ -29,7 +29,7 @@ Singing voice synthesis (SVS) is a task using the computer to generate songs wit
 
 In this paper, we propose SinGlow, as a solution to minimise this difference. SinGlow is one of the Normalising Flow that directly uses the calculated Negative Log-Likelihood value to optimise the trainable parameters. This feature gives SinGlow the ability to perfectly encode inputs into feature vectors, which allows us to manipulate the feature space to minimise the difference we discussed before. To our best knowledge, we are the first to propose an application of Normalising Flow in SVS fields. 
 
-![[](#structure)](design/the_spectrum.png)
+![](https://image.discover304.top/paper/the_spectrum.png)
 
 In our experiments, SinGlow shows the ability to encode sound and make the input virtual-singer songs more human-like.
 
